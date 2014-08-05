@@ -3,7 +3,7 @@
 <rfnmix = 'http://www.rfnmix.jahia.ep.europa.eu'>
 <rfnnt = 'http://www.rfnnt.jahia.ep.europa.eu'>
 
-[rfnnt:epRfnSiteSettings] > rfnnt:epRfnContent, jmix:studioOnly, mix:title, rfnmix:epRfnComponent
+[rfnnt:epRfnSiteSettings] > jnt:content, jmix:studioOnly, mix:title, rfnmix:epRfnComponent
  - searchMaxResultPerPage (long) mandatory
  - searchMaxPageInIndex (long) mandatory
  - epdirBaseUrl (string) mandatory
@@ -13,6 +13,6 @@
  - deactiveSurveyForIndexAbcSearch (boolean) mandatory
  - deactiveSurveyForEventCalendarSearch (boolean) mandatory
  - deactiveSurveyForFaqSearch (boolean) mandatory
- - deactiveSurveyForFaqCategorySearch (boolean)
+ - deactiveSurveyForFaqCategorySearch (boolean) mandatory
  - opinioUrl (string) mandatory internationalized
 
